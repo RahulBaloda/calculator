@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+    </head>
+<link href="./style.css" rel="stylesheet">
+    <body>
+
+
+<h1>Calculator - Easy to Use</h1>        
+
+<form class="calculator" name="calci">
+    <input class="value" type="text" name="tx" readonly=""/>
+    <span class="clear" onClick="document.calci.tx.value =''">c</span>
+   
+    <span class="num" onClick="document.calci.tx.value +='/'">/</span>
+    <span class="num" onClick="document.calci.tx.value +='*'">*</span>
+    <span class="num" onClick="document.calci.tx.value +='7'">7</span>
+    <span class="num" onClick="document.calci.tx.value +='8'">8</span>
+    <span class="num" onClick="document.calci.tx.value +='9'">9</span>
+    <span class="num" onClick="document.calci.tx.value +='-'">-</span>
+    
+    <span class="num" onClick="document.calci.tx.value +='4'">4</span>
+    <span class="num" onClick="document.calci.tx.value +='5'">5</span>
+    <span class="num" onClick="document.calci.tx.value +='6'">6</span>
+    <span class="num" onClick="document.calci.tx.value +='+'">+</span>
+
+    <span class="num" onClick="document.calci.tx.value +='1'">1</span>
+    <span class="num" onClick="document.calci.tx.value +='2'">2</span>
+    <span class="num" onClick="document.calci.tx.value +='3'">3</span>
+    <span class="num" onClick="document.calci.tx.value +='.'">.</span>
+    <span class="num" onClick="document.calci.tx.value +='0'">0</span>
+    <span class="num" onClick="document.calci.tx.value +='00'">00</span>
+    <span class="equals" onClick="document.calci.tx.value =eval(calci.tx.value)">=</span>
+   
+
+
+</form>
+
+</body>
+</html>
