@@ -1,18 +1,14 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
   
     min-height: 100vh;
     background: #091921;
 }
 h1{
+    justify-content:center;
     display: flex;
-    justify-content: center;
-    align-items: center ;
+  font-size:large;
+ 
     color: #fff;
    padding: 10px;
    margin-bottom: 40px;
